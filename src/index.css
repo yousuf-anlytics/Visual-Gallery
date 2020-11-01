@@ -1,13 +1,67 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+.square:focus {
+  outline: none;
+}
+.btn-space {
+    margin-right: 5px;
+}
+.graphs{
+width:550px;
+height:300px;
+margin-top:40px;
+margin-left:55px;
+box-shadow:1px 1px #e4ede6;
+cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pagination {
+margin-top:30px;
+  margin-left:750px;	
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+
+.pagination > li > a{
+  border: 1px solid #f5675d ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #f5675d ;
+  border-color: #f5675d;
+  outline: none ;
+}
+
+.paginate{
+	 margin-left:550px;
+	display:flex;
+	
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #818582; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #818582; 
+}
+
+
+.bar{
+	margin-left:40px;
 }
