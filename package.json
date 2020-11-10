@@ -1,6 +1,6 @@
 {
-  "homepage" : "http://data-visuals.github.io/Viz-Gallery",
-  "name": "my-app",
+  "homepage" : "http://yousuf-anlytics.github.io/",
+  "name": "viz-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
