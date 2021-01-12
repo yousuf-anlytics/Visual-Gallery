@@ -6,7 +6,7 @@ import Routes from './Routes';
 import { Navbar, Nav, Form, Button } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Home from './Home.js'
 
 class Shopping extends React.Component{
 	
@@ -14,9 +14,11 @@ class Shopping extends React.Component{
 		return(
 			<div className="App">
 				<Navbar style = {{position: "sticky"}} bg="info" expand="lg">
-				<Navbar.Brand href="/" style = {{color:"white"}}>Viz Gallery</Navbar.Brand>
+				<Navbar.Brand href="/" style = {{color:"white"}}>Viz Galleryh</Navbar.Brand>
 			</Navbar>
 		<Routes />
+		
+		<Home />
 	</div>
 			
 		 
